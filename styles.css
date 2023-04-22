@@ -1,3 +1,52 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+    display: block;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+a:link, a:visited, nav {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    transition: 500ms;
+}
+
+a:hover {
+    color: rgb(210, 169, 210);
+}
+
+.nav {
+    background-color: purple;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-right: 50px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 7px;
+}
+
+.nav-center {
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+}
+
+h1 {
+    text-align: center;
+}
